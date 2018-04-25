@@ -1,0 +1,393 @@
+﻿@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic|Quicksand');
+
+body{background: rgba(255,255,255);}
+
+#baratopo{
+  margin: 0 0;
+  width: 100%;
+  height: 20px;
+background: url(../imagens/bg01.png)
+
+}
+
+#wrapper{
+  width: 1200px;
+  height: auto;
+  margin: 0 auto;
+}
+
+.logo1{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  margin-top: 60px;
+  margin-left:110px;
+	widht: 90px;
+  height: 50PX;
+  color: #B0E0E6;
+}
+.logo2{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  margin-top: -50px;
+  margin-left:170px;
+	widht: 90px;
+  height: 50PX;
+  color: #000;
+}
+#menuprincipal{
+
+
+
+  width: 1200px;
+  height: 90px;
+  padding: 15px;
+  margin-top: -60px;
+  margin-left:-160px;
+  margin-bottom: 70px;
+  float: left;
+  padding: 20 40px;
+
+
+
+
+}
+
+#menuprincipal ul{
+  text-align: right;
+  /*caso você não use o CSS reset, coloque a linha de baixo  */
+  /*list-style: none; tira os marcadores */
+}
+
+#menuprincipal ul li{
+  display: inline;
+  padding: 20 10px;
+}
+
+#menuprincipal ul li a{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  padding-left: 15px;
+  text-decoration: none;
+  color: #B0E0E6;
+  letter-spacing: -1px;
+  font-weight: 700;
+  display: inline-block;
+  padding: 20 10px;
+
+
+}
+
+#menuprincipal ul li a:hover{
+  color: rgba(88, 17, 17, 0.8);
+  border-bottom: 1px solid rgba(88, 17, 17, 0.8);
+
+}
+
+#baner{
+  margin: 0px;
+  margin-top: 20px;
+  width: 1000px;
+  height: 100%;
+  background-image:url(../imagens/banner1.jpg);
+  background-repeat: no-repeat;
+}
+
+.caixa{
+
+  margin: auto;
+  width: 1000px;
+  height: 890px;
+  background:#fff;
+}
+
+
+#tituloimagens{
+  width: 500px;
+  padding: 20px;
+  margin-top:-600px;
+  margin-left: -20px;
+    font-family: 'Advent Pro', sans-serif;
+    font-size: 20px;
+    color: #000;
+    text-align: justify;
+}
+
+
+/* inicio desc img1*/
+#img1{
+  width: 350px;
+  padding: 20px;
+  margin-top:10px;
+  margin-left: -20px;
+
+}
+
+#descricaoimg1 h2{
+  width: 350px;
+  padding: 20px;
+  margin-top:0px;
+  margin-left: -20px;
+    font-family: 'Advent Pro', sans-serif;
+    font-size: 20px;
+    color: #000;
+    text-align: justify;
+
+}
+
+#descricaoimg1 p{
+  width: 330px;
+  margin-top:-10px;
+    margin-left: -15px;
+    font-family: 'Advent Pro', sans-serif;
+    text-align: justify;
+    font-size: 16px;
+    padding: 10px;
+    line-height: 30px;
+    word-spacing: -2px;
+}
+#descricaoimg1 h3{
+  width:100px;
+  margin-top:10px;
+    margin-left: -10px;
+    font-family: 'Advent Pro', sans-serif;
+    font-size: 16px;
+    color: #fff;
+padding: 10px;
+      background: #B0E0E6;
+      border-radius: 5px;
+      text-align: center;
+
+
+}
+/*fim desc img1*/
+
+
+/* inicio descr img2*/
+#img2{
+  width: 350px;
+  padding: 20px;
+  margin-top:-480px;
+  margin-left: 325px;
+
+}
+
+
+#descricaoimg2 h2{
+  width: 350px;
+  padding: 20px;
+  margin-top:0px;
+  margin-left: 325px;
+    font-family: 'Advent Pro', sans-serif;
+    font-size: 20px;
+    color: #000;
+    text-align: justify;
+
+}
+
+#descricaoimg2 p{
+  width: 330px;
+  margin-top:-10px;
+    margin-left: 325px;
+    font-family: 'Advent Pro', sans-serif;
+    text-align: justify;
+    font-size: 16px;
+    padding: 10px;
+    line-height: 30px;
+    word-spacing: -2px;
+}
+#descricaoimg2 h3{
+  width:100px;
+  margin-top:10px;
+    margin-left: 325px;
+    font-family: 'Advent Pro', sans-serif;
+    font-size: 16px;
+    color: #fff;
+padding: 10px;
+      background: #B0E0E6;
+      border-radius: 5px;
+      text-align: center;
+
+
+}
+
+
+/*fim desc img2*/
+
+
+
+/*inicio desc img3*/
+#img3{
+  width: 350px;
+  padding: 20px;
+  margin-top:-480px;
+  margin-left: 670px;
+}
+
+
+
+
+#descricaoimg3 h2{
+  width: 350px;
+  padding: 20px;
+  margin-top:0px;
+  margin-left: 670px;
+    font-family: 'Advent Pro', sans-serif;
+    font-size: 20px;
+    color: #000;
+    text-align: justify;
+
+}
+
+#descricaoimg3 p{
+  width: 330px;
+  margin-top:-10px;
+    margin-left: 670px;
+    font-family: 'Advent Pro', sans-serif;
+    font-size: 16px;
+    text-align: justify;
+    padding: 10px;
+    line-height: 30px;
+    word-spacing: -2px;
+}
+#descricaoimg3 h3{
+  width:100px;
+  margin-top:10px;
+    margin-left: 670px;
+    font-family: 'Advent Pro', sans-serif;
+    font-size: 16px;
+    color: #fff;
+padding: 10px;
+      background: #B0E0E6;
+      border-radius: 5px;
+      text-align: center;
+
+
+}
+
+
+/*fim desc img3*/
+
+
+/*fim da caixa imagens*/
+
+/*Começo conteudo Atualizações / Sobre Nos*/
+.caixasobrenos{
+
+margin: 0 0;
+  width: 100%;
+  height: 400px;
+  background: url(../imagens/bg01.png)
+}
+
+#Atualizacoes h2{
+  width: 350px;
+  padding: 20px;
+  margin-top:40px;
+  margin-left: 90px;
+    font-family: 'Advent Pro', sans-serif;
+    font-size: 20px;
+    color: #000;
+    text-align: justify;
+
+}
+#Atualizacoes h3{
+  width: 350px;
+  margin-top:0px;
+    margin-left: 110px;
+    font-family: 'Advent Pro', sans-serif;
+    font-size: 16px;
+    color: #fff;
+padding: 10px;
+      background: #B0E0E6;
+      border-radius: 5px;
+      text-align: center;
+}
+
+#Atualizacoes p{
+  width: 350px;
+  margin-top:10px;
+    margin-left: 110px;
+    font-family: 'Advent Pro', sans-serif;
+    text-align: justify;
+
+}
+
+#sobrenos h2{
+  width: 350px;
+  padding: 20px;
+  margin-top:-353px;
+  margin-left: 535px;
+    font-family: 'Advent Pro', sans-serif;
+    font-size: 20px;
+    color:#000;
+    text-align: justify;
+
+}
+
+#sobrenos h3 a{
+
+  width: 250px;
+  margin-top:660px;
+    margin-left: 560px;
+    font-family: 'Advent Pro', sans-serif;
+    font-size: 16px;
+    color: #fff;
+  padding: 10px;
+      background: #B0E0E6;
+      border-radius: 5px;
+
+      text-decoration: none;
+}
+
+#sobrenos p{
+width: 350px;
+    margin-left: 560px;
+    font-family: 'Advent Pro', sans-serif;
+    text-align: justify;
+
+}
+
+#contato h2{
+  width: 200px;
+  padding: 20px;
+  margin-top:-310px;
+  margin-left: 1000px;
+    font-family: 'Advent Pro', sans-serif;
+    font-size: 20px;
+    color: #000;
+    text-align: justify;
+
+
+}
+
+#contato h3{
+  width: 250px;
+  margin-top:10px;
+    margin-left: 1000px;
+    font-family: 'Advent Pro', sans-serif;
+    font-size: 16px;
+    color: #fff;
+padding: 10px;
+      background: #B0E0E6;
+      border-radius: 5px;
+      text-align: center;
+
+}
+#contato p {
+  width: 290px;
+  margin-top:10px;
+    margin-left: 1000px;
+    font-family: 'Advent Pro', sans-serif;
+    text-align: justify;
+
+}
+
+#rodape{
+  font-family: 'Advent Pro', sans-serif;
+  text-align: justify;
+  width: 100%;
+  height: 70px;
+  margin-top: 30px;
+  font-size: 12px;
+  text-align: center;
+}
